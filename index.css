@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Norse-Font';
+    src: url(./Norse-Bold.otf);
+
+
+}
+
+
+
+
+textarea,
+input {
+    outline: none;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+}
+
+/* LEFT SIDE */
+
+img {
+    width: 525px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.left-side {
+    height: 100vh;
+
+}
+
+.title-container {
+    position: absolute;
+    margin-top: 12%;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 14px 171px;
+    display: flex;
+
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+    font-family: 'Norse-Font';
+}
+
+svg {
+    fill: white;
+
+}
+
+/* RIGHT-SIDE  */
+
+
+
+.sign-text {
+
+    padding-left: 5%;
+    margin-top: 10%;
+}
+
+
+.sign-text:nth-child(1) {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 1.5em;
+    max-width: 60%;
+}
+
+.down-text {
+    margin-top: 20px;
+}
+
+.form-container {
+    margin-top: 40px;
+    background-color: white;
+    height: 40vh;
+    width: 110vh;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 9px 15px 0px rgba(0, 0, 0, 0.61);
+    box-shadow: -1px 9px 15px 0px rgba(0, 0, 0, 0.61);
+
+}
+
+.form-title {
+    margin-left: 5%;
+    padding-top: 10px;
+
+}
+
+h2 {
+    font-family: 'Chivo Mono', monospace;
+    margin-top: 10px;
+}
+
+
+
+.form {
+    margin-left: 5%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 700px
+}
+
+form {
+    margin-top: 20px;
+
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    width: 20em;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+input:focus {
+    border: 1px solid blue;
+
+}
+
+label {
+    font-size: 0.8rem;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 500;
+
+}
+
+
+
+
+.error,
+.error:focus {
+    border: 1px solid red;
+
+}
+
+
+
+
+
+.message {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button {
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+    background-color: #324452;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.login {
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 0.9rem;
+
+}
+
+a,
+a:visited {
+    font-weight: bold;
+    color: #324452
+}
